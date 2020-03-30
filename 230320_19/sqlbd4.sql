@@ -1,19 +1,19 @@
-SELECT * FROM bd4;
-insert into bd4 (nroemp,nombref,nombrec,pass,correo,oficina,puesto)values (4,4,4,4,4,4,4)  ;
-DELETE FROM bd4  WHERE id=2;
-SELECT count(*) FROM bd4 WHERE nroemp='4';
-SELECT nroemp FROM bd4 WHERE nroemp='4';
-SELECT * FROM bd4 WHERE nroemp='4';
-SELECT * FROM bd4;
-DELETE FROM bd4  WHERE id=9;
-        SELECT precio FROM bd3 where precio >1.0;
-        select * from bd3 where id =3;
-        select * from bd3 where lower(descripcion) LIKE lower('Ch%');
-        select * from bd3 where lower(descripcion) LIKE lower('%a%');
-        select * from bd3 where lower(descripcion) LIKE lower('%o');
-        insert into bd3 (id,descripcion,precio,categoria)values (2,'2','2','2')  ;
-        insert into bd3 (descripcion,precio,categoria)values ('4','3','3')  ; --si no pones id se ponesolo autoincrementa
-		 insert into bd3 (descripcion,precio,categoria) values ('8','4','4')  ; 
+SELECT * FROM bd0;
+insert into bd0 (nroemp,nombref,nombrec,pass,correo,oficina,puesto)values (4,4,4,4,4,4,4)  ;
+DELETE FROM bd0  WHERE id=2;
+SELECT count(*) FROM bd0 WHERE nroemp='4';
+SELECT nroemp FROM bd0 WHERE nroemp='4';
+SELECT * FROM bd0 WHERE nroemp='4';
+SELECT * FROM bd0;
+DELETE FROM bd0  WHERE id=9;
+        SELECT precio FROM bd0 where precio >1.0;
+        select * from bd0 where id =3;
+        select * from bd0 where lower(descripcion) LIKE lower('Ch%');
+        select * from bd0 where lower(descripcion) LIKE lower('%a%');
+        select * from bd0 where lower(descripcion) LIKE lower('%o');
+        insert into bd0 (id,descripcion,precio,categoria)values (2,'2','2','2')  ;
+        insert into bd0 (descripcion,precio,categoria)values ('4','3','3')  ; --si no pones id se ponesolo autoincrementa
+		 insert into bd0 (descripcion,precio,categoria) values ('8','4','4')  ; 
         insert into bd3 (id)values ()  ; --comentarios
         UPDATE bd3 SET descripcion =3,precio=3,categoria=3 WHERE id=2; 
 			SELECT count(*) FROM bd3 where precio is not null ;
