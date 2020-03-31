@@ -20,7 +20,7 @@
                     }catch(PDOException $e){
                         echo json_encode(array(
                             'respuesta'=>'-1',
-                            'estado' => 'No EXISTE y',
+                            'estado' => 'No gacPphp',
                             'data'=>'',
                             'error'=>$e->getMessage())
                 
