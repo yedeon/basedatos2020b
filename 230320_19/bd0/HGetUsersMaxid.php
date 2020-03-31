@@ -3,7 +3,7 @@
 
             if($_SERVER['REQUEST_METHOD']=='GET'){
                 try{
-                    $respuesta = SQLGlobal::selectArray("SELECT max(id)  FROM bd4 ");
+                    $respuesta = SQLGlobal::selectArray("SELECT max(id)  FROM bd0 ");
                     echo json_encode(array(
                             'respuesta'=>'200',
                             'estado' => 'Se Filtro ok',
