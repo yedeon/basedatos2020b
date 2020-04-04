@@ -4,14 +4,12 @@
 	if($_SERVER['REQUEST_METHOD']=='POST'){
 		try{
 			$datos = json_decode(file_get_contents("php://input"),true);
-
-           
                 $id = $_POST["id"];
                 $nroemp  = $_POST["nroemp"]; 
-                $pass = $_POST["pass"]; 
-                $nombref = $_POST["nombref"]; 
-                $correo = $_POST["correo"]; 
+                $nombref = $_POST["nombref"];
                 $nombrec = $_POST["nombrec"]; 
+                $pass = $_POST["pass"];
+                $correo = $_POST["correo"]; 
                 $oficina = "nombrec"; 
                 $puesto = "puesto"; 
                 $respuesta = SQLGlobal::cudFiltro("INSERT INTO bd0 values (?,?,?,?,?,?,?,?)",
