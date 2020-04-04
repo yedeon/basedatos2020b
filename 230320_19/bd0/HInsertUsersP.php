@@ -3,7 +3,7 @@
 
 	if($_SERVER['REQUEST_METHOD']=='POST'){
 		try{
-			$datos = json_decode(file_get_contents("php://input"),true);
+			$datos = json_decode(file_get_contents("php://input"),true) ;
                 $id = $_POST["id"];
                 $nroemp  = $_POST["nroemp"]; 
                 $nombref = $_POST["nombref"];
