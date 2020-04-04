@@ -7,7 +7,7 @@
 
            
                 $id = $_POST["id"];
-                $nroemp  = $_POST["nroemp "]; 
+                $nroemp  = $_POST["nroemp"]; 
                 $pass = $_POST["pass"]; 
                 $nombref = $_POST["nombref"]; 
                 $correo = $_POST["correo"]; 
