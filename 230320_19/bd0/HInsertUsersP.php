@@ -13,7 +13,7 @@
                 $oficina = "nombrec"; 
                 $puesto = "puesto"; 
                 $respuesta = SQLGlobal::cudFiltro("INSERT INTO bd0 values (?,?,?,?,?,?,?,?)",
-                array($id,$nroemp,$nombrec,$pass,$correo,$oficina,$correo,$puesto));
+                array($id,$nroemp,$nombrec,$nombref,$pass,$correo,$oficina,$puesto));
            
 				
                     if($respuesta>0){
