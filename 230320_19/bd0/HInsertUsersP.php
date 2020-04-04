@@ -12,8 +12,10 @@
                 $nombref = $_POST["nombref"]; 
                 $correo = $_POST["correo"]; 
                 $nombrec = $_POST["nombrec"]; 
-                $respuesta = SQLGlobal::cudFiltro("INSERT INTO bd0 values (?,?,?,?,?,?)",
-                array($id,$nroemp,$pass,$nombref,$correo,$nombrec));
+                $oficina = "nombrec"; 
+                $puesto = "puesto"; 
+                $respuesta = SQLGlobal::cudFiltro("INSERT INTO bd0 values (?,?,?,?,?,?,?,?)",
+                array($id,$nroemp,$pass,$nombref,$correo,$nombrec,$oficina,$puesto));
            
 				
                     if($respuesta>0){
